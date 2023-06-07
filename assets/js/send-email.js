@@ -1,5 +1,3 @@
-console.log("Hello");
-
 function sendMail(contactForm) {
     emailjs.send("gmail", "project-request", {
         "from_name": contactForm.name.value,
